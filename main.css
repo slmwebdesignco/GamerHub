@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Press+Start+2P|Bowlby+One+SC');
+
+body {
+	background: #1968B2;
+}
+
+header {
+	padding: 20px 15px;
+	background-color: black;
+}
+
+#logo {
+	display: inline-block;
+	text-align: center;
+	width: 200px;
+	height: 20px;
+	padding: 15px;
+	background-color: black;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 25px ;
+	color: #B21810;
+}
+
+#top-nav {
+	display: inline-block;
+	float: right;
+	
+}
+
+#top-nav a {
+	display: inline-block;
+	padding: 25px 15px;
+	color: #1272CC;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+#top-nav a:hover {
+	padding: 0 15px;
+	color: #B21810;
+	text-decoration: none;
+
+}
+
+.jumbo {
+	margin-top: 100px;
+}
+
+.jumbo h1 {
+	font-family: 'Bowlby One SC', cursive;
+	text-align: center;
+	font-size: 50px;
+	color: #F0FF09;
+	
+}
+
+.controller {
+	text-align: center;
+}
+
+.feat-reviews h2{
+	text-align: center;
+	font-size: 25px;
+	text-decoration: underline;
+	font-family: 'Bowlby One SC', cursive;
+	color: black;
+}
+
+.review-links {
+	padding: 20px 100px;
+	text-align: center;
+}
+
+.review-links .box {
+	display: inline-block;
+	background: #fff;
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	overflow: hidden;
+	cursor: pointer;
+
+	
+}
+
+.review-links .box .hoverbox {
+	background: rgba(0, 0, 0, 0.9);
+	position: relative;
+	bottom: -100%;
+	height: 100%;
+	position: 100%;
+	transition: all .7s ease;
+	padding: 35px 15px;
+	opacity: 0;
+}
+.review-links .box .hoverbox h3{
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.review-links .box .hoverbox {
+	color: white;
+	font-size: 18px;
+}
+
+
+.review-links .box:hover .hoverbox {
+	bottom: 0;
+	opacity: 1;
+}
